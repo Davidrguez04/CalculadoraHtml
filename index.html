@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="calcula.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <h2>Calculadora Básica</h2>
+        
+        <!-- Campos de entrada para dos números -->
+        <input type="number" id="numero1" placeholder="Número 1">
+        <input type="number" id="numero2" placeholder="Número 2">
+        
+        <br>
+        <!-- Botones para las operaciones -->
+        <button onclick="calcular('+')">Sumar</button>
+        <button onclick="calcular('-')">Restar</button>
+        <button onclick="calcular('*')">Multiplicar</button>
+        <button onclick="calcular('/')">Dividir</button>
+        
+        <!-- Mostrar el resultado -->
+        <div class="resultado" id="resultado"></div>
+    </div>
+  
+
+</body>
+</html>
